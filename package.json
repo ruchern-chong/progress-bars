@@ -12,11 +12,18 @@
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
     "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
     "react-scripts": "3.0.1",
-    "source-map-explorer": "^2.0.1"
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "source-map-explorer": "^2.0.1",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
@@ -25,7 +32,9 @@
     "@storybook/react": "^5.1.9",
     "@testing-library/jest-dom": "^4.0.0",
     "@testing-library/react": "^8.0.5",
+    "babel-plugin-styled-components": "^1.10.6",
     "husky": "^3.0.1",
+    "jest-fetch-mock": "^2.1.2",
     "lint-staged": "^9.2.0",
     "prettier": "^1.18.2"
   },
