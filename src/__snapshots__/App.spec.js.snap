@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <h3
+          class="MuiTypography-root MuiTypography-h3"
+        >
+          Progress Bar Demo
+        </h3>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          Limit 180%
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        #1
+         
+        <progress
+          max="100"
+          value="47"
+        />
+         
+        <span
+          data-testid="progress-bar-1-value"
+        >
+          47%
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        #2
+         
+        <progress
+          max="100"
+          value="51"
+        />
+         
+        <span
+          data-testid="progress-bar-2-value"
+        >
+          51%
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        #3
+         
+        <progress
+          max="100"
+          value="13"
+        />
+         
+        <span
+          data-testid="progress-bar-3-value"
+        >
+          13%
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline"
+          data-testid="select"
+        >
+          <select
+            class="MuiSelect-root MuiSelect-select MuiInputBase-input MuiInput-input MuiInputBase-inputSelect"
+            id="select"
+            name="select"
+          >
+            <option
+              value="0"
+            >
+              Progress Bar 1
+            </option>
+            <option
+              value="1"
+            >
+              Progress Bar 2
+            </option>
+            <option
+              value="2"
+            >
+              Progress Bar 3
+            </option>
+          </select>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <div
+          class="MuiButtonGroup-root"
+          role="group"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButton-outlined"
+            data-testid="button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              20
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButton-outlined"
+            data-testid="button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              22
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButton-outlined"
+            data-testid="button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              -8
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButton-outlined"
+            data-testid="button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              -32
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
