@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar should render 1`] = `
+<div>
+  <progress
+    max="100"
+  />
+</div>
+`;
