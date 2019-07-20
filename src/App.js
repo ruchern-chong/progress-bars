@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
-import Select from '@material-ui/core/Select';
-import Typography from '@material-ui/core/Typography';
+import {
+  Button,
+  ButtonGroup,
+  Container,
+  Grid,
+  Select,
+  Typography
+} from '@material-ui/core';
 
 import ProgressBar from './components/ProgressBar';
 
