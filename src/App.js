@@ -17,9 +17,13 @@ export const App = props => {
 
   const [selectedBar, setSelectedBar] = useState(0);
 
-  useEffect(() => {
-    props.fetchData();
-  }, []);
+  useEffect(
+    () => {
+      props.fetchData();
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
 
   const hasData = Boolean(bars && buttons && limit);
 
